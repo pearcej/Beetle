@@ -1,6 +1,6 @@
 /**
 FIXME: Place your name(s) and a description of the lab here
-Beetle image by Dr. Jan Pearce, Berea College
+Beetle image, Getrandom, and Dice by Dr. Jan Pearce, Berea College
 */
 
 #include <iostream>
@@ -100,13 +100,15 @@ int main( ){
 
 	char readchar;
 
-	//FIXME: Make your own again
+	//FIXME: Your code
 
 	Beetle beetle1;
 	beetle1.show();
 
-	cin >> readchar; //This is to keep screen open in some situations.
+	//FIXME: Your code
 
+
+	cin >> readchar; //This is to keep screen open in some situations.
 	return 0;
 }
 
