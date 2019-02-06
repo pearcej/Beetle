@@ -1,5 +1,5 @@
 /**
-FIXME: Place your name(s) and a description of the teamwork here
+FIXME: Place your name(s) and a description of the lab here
 Beetle image by Dr. Jan Pearce, Berea College
 */
 
