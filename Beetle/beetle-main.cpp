@@ -1,5 +1,6 @@
 /**
 FIXME: Place your name(s) and a description of the lab here
+See the requirements list in the Lab description for what to do
 Beetle image, Getrandom, and Dice by Dr. Jan Pearce, Berea College
 */
 
@@ -61,7 +62,8 @@ class Beetle
 {
 public:  
 	Beetle() {
-		//FIXME: initialize all member variables
+		
+
 	}
 
 	//FIXME: Add all of your methods
@@ -75,10 +77,15 @@ public:
 		return; 
 	}
 private:
-	//FIXME: declare all member class and instance variables here
-	const int len_beetle = 11;
-	//Note: You do not need to use my Beetle image..., but you may.
-	string complete_beetle[11]={
+	//FIXME: declare all other member class and instance variables here
+
+	/*Note: You need to draw your Beetle as each part is added.
+	You may use your own ASCII art or you may use mine.
+	Think about how to use the array elements in order to
+	draw the Beetle as the game progresses */
+
+    const int len_beetle = 11;
+	string complete_beetle[11] = {
 		"      Y   Y      ",
 		"      \\\\_//      ",
 		"     .@   @.     ",
@@ -103,6 +110,7 @@ int main( ){
 	//FIXME: Your code
 
 	Beetle beetle1;
+	cout << "The complete Beetle!\n" << endl;
 	beetle1.show();
 
 	//FIXME: Your code
