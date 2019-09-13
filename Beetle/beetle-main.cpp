@@ -2,6 +2,16 @@
 FIXME: Place your name(s) and a description of the lab here
 See the requirements list in the Lab description for what to do
 Beetle image, Getrandom, and Dice by Dr. Jan Pearce, Berea College
+
+Milestone Requirements:
+By 8 am on 9/16/19 Milestone 1: Pull repo and make at least one change and commit
+
+By 8 am on 9/18/19 Milestone 2: Make sincere attempt to complete everything, 
+so you can come to class with questions.  However, it might not yet be working.
+
+By 8 am on 9/20/19 Final Milestone: Lab is complete.
+
+
 */
 
 #include <iostream>
