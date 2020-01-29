@@ -4,13 +4,15 @@ See the requirements list in the Lab description for what to do
 Beetle image, Getrandom, and Dice by Dr. Jan Pearce, Berea College
 
 Milestone Requirements:
-By 8 am on 9/16/19 Milestone 1: Pull repo and make at least one change and commit
 
-By 8 am on 9/18/19 Milestone 2: Make sincere attempt to complete everything, 
-so you can come to class with questions.  However, it might not yet be working.
+Milestone 1: Submit initial whiteboard design, 
+pull repo and make some commits.
 
-By 8 am on 9/20/19 Final Milestone: Lab is complete.
+Milestone 2: Make sincere attempt to complete everything, 
+so you can come to class with questions.  
+However, it might not yet be working.
 
+Final Milestone: Lab is complete.
 
 */
 
@@ -80,7 +82,8 @@ public:
 
 	void show() const { 
 		//FIX ME -- this needs to done using << overloading
-		// and it needs to show the partial Beetle.
+		// and it needs to show the partial_beetle.
+		// as well as the name of the Beetle instance.
 		for (int i = 0; i < len_beetle; i++) {
 			cout << complete_beetle[i] << endl;
 		}
@@ -91,14 +94,16 @@ private:
 
 	/*Note: You need to draw your Beetle as each part is added.
 	You may use your own ASCII art or you may use mine.
+	YOu may not use C-Turtle.
 	Think about how to use the array elements in order to
 	draw the Beetle as the game progresses */
 
-    const int len_beetle = 11;
-	string complete_beetle[11] = {
+    const int len_beetle = 12;
+	string complete_beetle[12] = {
 		"      Y   Y      ",
 		"      \\\\_//      ",
 		"     .@   @.     ",
+		"      \\___/       ",
 		"  v__/  -  \\__v  ",
 		"v___|---.---|___v",
 		" v__|   |   |__v ",
@@ -107,6 +112,21 @@ private:
 		"       |:|       ",
 		"       |:|       ",
 		"        v        "
+	};
+
+	string partial_beetle[12] = {
+		"                 ",
+		"                 ",
+		"                 ",
+		"                 ",
+		"                 ",
+		"                 ",
+		"                 ",
+		"                 ",
+		"                 ",
+		"                 ",
+		"                 ",
+		"                 "
 	};
 	
 
